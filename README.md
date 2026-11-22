@@ -365,7 +365,7 @@ Vite normally makes the frontend available at:
 
 \---
 
-\### Step 7 – Open the application
+\#Step 7 – Open the application
 
 
 
