@@ -762,7 +762,7 @@ The video presents the application, its architecture, the main features, databas
 
 
 
-\*\***Video link:**\*\*
+\*\***Video link:**\*\* https://drive.google.com/file/d/1ZC897_O1y7OWNXmsv2hwmuZ-alVvQgiN/view?usp=sharing
 
 
 
