@@ -1,4 +1,4 @@
-**# Meal Planner App**
+**Meal Planner App**
 
 
 
@@ -18,7 +18,7 @@ It uses a hybrid database architecture combining a relational SQL database and a
 
 
 
-\## 1. Technologies
+\1. Technologies
 
 
 
@@ -54,7 +54,7 @@ JSON Web Tokens (JWT): user authentication and protected API access.
 
 
 
-\## 2. Requirements
+\2. Requirements
 
 
 
@@ -86,11 +86,11 @@ Before running the application, make sure you have installed:
 
 
 
-\## 3. Installation and Setup
+\3. Installation and Setup
 
 
 
-\### Step 1 – Download the project
+\#Step 1 – Download the project
 
 
 
@@ -102,7 +102,7 @@ Open the project folder in Visual Studio Code.
 
 
 
-\### Step 2 – Start MySQL
+\#Step 2 – Start MySQL
 
 
 
@@ -144,7 +144,7 @@ These tables use primary keys and foreign keys to maintain relationships between
 
 
 
-\### Step 3 – Start MongoDB
+\#Step 3 – Start MongoDB
 
 
 
@@ -212,7 +212,7 @@ MongoDB connection:
 
 
 
-\### Step 4 – Configure the backend
+\#Step 4 – Configure the backend
 
 
 
@@ -272,7 +272,7 @@ Keep this file private. Never upload `backend/.env` to GitHub.
 
 
 
-\### Step 5 – Configure the frontend
+\#Step 5 – Configure the frontend
 
 
 
@@ -304,7 +304,7 @@ npm.cmd install
 
 
 
-\### Step 6 – Run the application
+\#Step 6 – Run the application
 
 
 
@@ -368,13 +368,13 @@ Vite normally makes the frontend available at:
 
 
 
-Open Google Chrome and visit:
+**Open Google Chrome and visit:**
 
 
 
 `http://localhost:5173/`
 
-
+**The application is hosted locally on `localhost:5173` and is not publicly deployed. Access is therefore restricted to the local machine running the web server.**
 
 Keep both terminals open while using the application. MySQL and MongoDB must also remain running.
 
@@ -388,11 +388,11 @@ Keep both terminals open while using the application. MySQL and MongoDB must als
 
 
 
-\## 4. Application Features
+\4. Application Features
 
 
 
-\### Authentication
+\#Authentication
 
 
 
@@ -406,7 +406,7 @@ Keep both terminals open while using the application. MySQL and MongoDB must als
 
 
 
-\### MySQL – Relational Database
+\#MySQL – Relational Database
 
 
 
@@ -430,7 +430,7 @@ CRUD operations include Create, Read, Update and Delete.
 
 
 
-\### MongoDB – NoSQL Database
+\#MongoDB – NoSQL Database
 
 
 
@@ -456,7 +456,7 @@ Transaction-related events are also recorded automatically in the activity logs.
 
 
 
-\## 5. Hybrid Database Transaction and Synchronization
+\5. Hybrid Database Transaction and Synchronization
 
 
 
@@ -488,7 +488,7 @@ performs the following operations:
 
 
 
-\### Successful transaction
+\#Successful transaction
 
 
 
@@ -506,7 +506,7 @@ When the SQL transaction succeeds:
 
 
 
-\### Rollback demonstration
+\#Rollback demonstration
 
 
 
@@ -556,7 +556,7 @@ If MongoDB synchronization fails after the SQL commit, the application records a
 
 
 
-\## 6. API Overview
+\6. API Overview
 
 
 
@@ -568,7 +568,7 @@ Protected endpoints require:
 
 
 
-\### Authentication
+\#Authentication
 
 
 
@@ -578,7 +578,7 @@ Protected endpoints require:
 
 
 
-\### SQL endpoints
+\#SQL endpoints
 
 
 
@@ -594,7 +594,7 @@ Protected endpoints require:
 
 
 
-\### MongoDB endpoints
+\#MongoDB endpoints
 
 
 
@@ -608,7 +608,7 @@ Protected endpoints require:
 
 
 
-\### Transaction
+\#Transaction
 
 
 
@@ -616,7 +616,7 @@ Protected endpoints require:
 
 
 
-\### Health check
+\#Health check
 
 
 
@@ -632,7 +632,7 @@ For collection routes, list and create operations use `GET` and `POST`. Individu
 
 
 
-\## 7. Project Structure
+\7. Project Structure
 
 
 
@@ -714,7 +714,13 @@ meal-planner-app/
 
 ├── .gitignore
 
-└── README.md
+├── README.md
+
+├── UML Class Diagram - Meal Planner App.png
+
+├── UML Use Case Diagram - Meal Planner App.png
+
+└── Video_MealPlanner.mp4
 
 ```
 
@@ -724,7 +730,7 @@ meal-planner-app/
 
 
 
-\## 8. Documentation and Screenshots
+\8. Documentation and Screenshots
 
 
 
@@ -750,11 +756,11 @@ The `docs/screenshots/` directory contains screenshots captured from the running
 
 
 
-\## 9. Project Presentation
+\9. Project Presentation
 
 
 
-\### Presentation Video
+\#Presentation Video
 
 
 
@@ -762,11 +768,11 @@ The video presents the application, its architecture, the main features, databas
 
 
 
-\*\***Video link:**\*\* https://drive.google.com/file/d/1ZC897_O1y7OWNXmsv2hwmuZ-alVvQgiN/view?usp=sharing
+**Video link:** https://drive.google.com/file/d/1ZC897_O1y7OWNXmsv2hwmuZ-alVvQgiN/view?usp=sharing
 
 
 
-\### Canva Presentation
+\#Canva Presentation
 
 
 
@@ -774,7 +780,7 @@ The Canva presentation contains the slides used to introduce the project and exp
 
 
 
-\*\***Canva link:**\*\* https://canva.link/mjyfz3jlp4kxju6
+**Canva link:** https://canva.link/mjyfz3jlp4kxju6
 
 
 
@@ -784,7 +790,7 @@ The Canva presentation contains the slides used to introduce the project and exp
 
 
 
-\## 10. Security and Version Control
+\10. Security and Version Control
 
 
 
@@ -806,13 +812,13 @@ The Canva presentation contains the slides used to introduce the project and exp
 
 
 
-\## 11. Author
+\11. Authors
 
 
 
-\*\*Project:\*\* Meal Planner App
+**Project:** Meal Planner App
 
-\*\*Type:\*\* Full-stack application – Hybrid SQL and NoSQL Database
+**Type:** Full-stack application – Hybrid SQL and NoSQL Database
 
-\*\*Authors:\*\* 6910040619 - 6910040341 - 6910040457 - 6910040309 - 6910040678 - 6910040694
+**Authors:** 6910040619 - 6910040341 - 6910040457 - 6910040309 - 6910040678 - 6910040694
 
