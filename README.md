@@ -1,4 +1,4 @@
-**Meal Planner App**
+**MEAL PLANNER APP**
 
 
 
@@ -18,7 +18,7 @@ It uses a hybrid database architecture combining a relational SQL database and a
 
 
 
-\1. Technologies
+**1. Technologies**
 
 
 
@@ -54,7 +54,7 @@ JSON Web Tokens (JWT): user authentication and protected API access.
 
 
 
-\2. Requirements
+**2. Requirements**
 
 
 
@@ -86,9 +86,9 @@ Before running the application, make sure you have installed:
 
 
 
-\3. Installation and Setup
+**3. Installation and Setup**
 
-
+\---
 
 \#Step 1 – Download the project
 
@@ -100,7 +100,7 @@ Clone or download this GitHub repository.
 
 Open the project folder in Visual Studio Code.
 
-
+\---
 
 \#Step 2 – Start MySQL
 
@@ -142,7 +142,7 @@ The SQL database contains seven tables:
 
 These tables use primary keys and foreign keys to maintain relationships between records.
 
-
+\---
 
 \#Step 3 – Start MongoDB
 
@@ -211,6 +211,7 @@ MongoDB connection:
 `mongodb://127.0.0.1:27017/meal\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_planner`
 
 
+\---
 
 \#Step 4 – Configure the backend
 
@@ -270,7 +271,7 @@ Open `backend/.env` and configure:
 
 Keep this file private. Never upload `backend/.env` to GitHub.
 
-
+\---
 
 \#Step 5 – Configure the frontend
 
@@ -302,7 +303,7 @@ npm.cmd install
 
 ```
 
-
+\---
 
 \#Step 6 – Run the application
 
@@ -362,7 +363,7 @@ Vite normally makes the frontend available at:
 
 `http://localhost:5173/`
 
-
+\---
 
 \### Step 7 – Open the application
 
@@ -388,9 +389,9 @@ Keep both terminals open while using the application. MySQL and MongoDB must als
 
 
 
-\4. Application Features
+**4. Application Features**
 
-
+\---
 
 \#Authentication
 
@@ -404,7 +405,7 @@ Keep both terminals open while using the application. MySQL and MongoDB must als
 
 \- JWT-protected API routes
 
-
+\---
 
 \#MySQL – Relational Database
 
@@ -456,7 +457,7 @@ Transaction-related events are also recorded automatically in the activity logs.
 
 
 
-\5. Hybrid Database Transaction and Synchronization
+**5. Hybrid Database Transaction and Synchronization**
 
 
 
@@ -486,7 +487,7 @@ performs the following operations:
 
 5\. Creates an activity log and a notification in MongoDB after a successful commit.
 
-
+\---
 
 \#Successful transaction
 
@@ -504,7 +505,7 @@ When the SQL transaction succeeds:
 
 \- A notification is created in MongoDB.
 
-
+\---
 
 \#Rollback demonstration
 
@@ -556,7 +557,7 @@ If MongoDB synchronization fails after the SQL commit, the application records a
 
 
 
-\6. API Overview
+**6. API Overview**
 
 
 
@@ -576,7 +577,7 @@ Protected endpoints require:
 
 \- `POST /api/auth/login`
 
-
+\---
 
 \#SQL endpoints
 
@@ -592,7 +593,7 @@ Protected endpoints require:
 
 \- `/api/shopping-list`
 
-
+\---
 
 \#MongoDB endpoints
 
@@ -606,7 +607,7 @@ Protected endpoints require:
 
 \- `/api/activity-logs`
 
-
+\---
 
 \#Transaction
 
@@ -632,7 +633,7 @@ For collection routes, list and create operations use `GET` and `POST`. Individu
 
 
 
-\7. Project Structure
+**7. Project Structure**
 
 
 
@@ -730,7 +731,7 @@ meal-planner-app/
 
 
 
-\8. Documentation and Screenshots
+**8. Documentation and Screenshots**
 
 
 
@@ -756,7 +757,7 @@ The `docs/screenshots/` directory contains screenshots captured from the running
 
 
 
-\9. Project Presentation
+**9. Project Presentation**
 
 
 
@@ -790,7 +791,7 @@ The Canva presentation contains the slides used to introduce the project and exp
 
 
 
-\10. Security and Version Control
+**10. Security and Version Control**
 
 
 
@@ -812,7 +813,7 @@ The Canva presentation contains the slides used to introduce the project and exp
 
 
 
-\11. Authors
+**11. Authors**
 
 
 
