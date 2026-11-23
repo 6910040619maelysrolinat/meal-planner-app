@@ -721,7 +721,9 @@ meal-planner-app/
 
 ├── UML Use Case Diagram - Meal Planner App.png
 
-└── Video_MealPlanner.mp4
+├── Video_MealPlanner.mp4
+
+└── MealPlanner_Demonstration.mp4
 
 ```
 
@@ -772,6 +774,9 @@ The video presents the application, its architecture, the main features, databas
 **Video link:** https://drive.google.com/file/d/1ZC897_O1y7OWNXmsv2hwmuZ-alVvQgiN/view?usp=sharing
 
 
+The second video provides a practical demonstration of the application, showing its functionalities and how users can interact with it.
+
+**Application Demonstration Link :** https://drive.google.com/file/d/1cIMSk6VMhHzGSVvHMGTlwlI-nFlx5_yu/view?usp=sharing
 
 \#Canva Presentation
 
