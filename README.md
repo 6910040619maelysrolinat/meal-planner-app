@@ -110,13 +110,13 @@ Open the project folder in Visual Studio Code.
 
 2\. Connect to `Local instance MySQL80`.
 
-3\. For the first installation, open `database/mysql\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_schema.sql`.
+3\. For the first installation, open `database/mysql_schema.sql`.
 
 4\. Execute the complete SQL script.
 
 
 
-This creates the `meal\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_planner` database and its relational tables.
+This creates the `meal_planner` database and its relational tables.
 
 
 
@@ -130,13 +130,13 @@ The SQL database contains seven tables:
 
 \- `ingredients`
 
-\- `recipe\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_ingredients`
+\- `recipe_ingredients`
 
-\- `meal\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_plans`
+\- `meal_plans`
 
-\- `shopping\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_list`
+\- `shopping_list`
 
-\- `meal\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_plan\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_confirmations`
+\- `meal_plan_confirmations`
 
 
 
